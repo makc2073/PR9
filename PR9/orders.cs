@@ -19,6 +19,9 @@ namespace PR9
         public DateTime created { get; set; }
         [Column(Name = "user_ids")]
         public int user_ids { get; set; }
+        [Column(Name = "point_ids")]
+        public int point_ids { get; set; }
+
         [Column(Name = "sum")]
         public int sum { get; set; }
         [Column(Name = "status_ids")]
